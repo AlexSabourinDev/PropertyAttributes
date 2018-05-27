@@ -14,6 +14,7 @@ public class ExampleScript : MonoBehaviour
 	[StringToEnum(typeof(TestEnum))]
 	public string TestEnum;
 
+	public float TestWritable;
 	[ReadOnly]
 	public float TestReadOnly;
 
